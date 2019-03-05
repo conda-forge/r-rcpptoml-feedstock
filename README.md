@@ -1,3 +1,7 @@
+<!--
+# -*- mode: jinja -*-
+-->
+
 About r-rcpptoml
 ================
 
@@ -7,12 +11,7 @@ Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
-Summary: The configuration format defined by ''TOML'' (which expands to "Tom''s Obvious Markup
-Language") specifies an excellent format (described at <https://github.com/toml-lang/toml>)
-suitable for both human editing as well as the common uses of a machine-readable
-format. This package uses ''Rcpp'' to connect the ''cpptoml'' parser written by
-Chase Geigle (in modern C++11) to R.
-
+Summary: The configuration format defined by 'TOML' (which expands to "Tom's Obvious Markup Language") specifies an excellent format (described at <https://github.com/toml-lang/toml>) suitable for both human editing as well as the common uses of a machine-readable format. This package uses 'Rcpp' to connect the 'cpptoml' parser written by Chase Geigle (in modern C++11) to R.
 
 
 
@@ -54,6 +53,8 @@ conda search r-rcpptoml --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -109,3 +110,9 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@conda-forge/r](https://github.com/conda-forge/r/)
+
