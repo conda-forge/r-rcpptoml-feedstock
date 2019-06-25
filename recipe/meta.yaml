@@ -1,4 +1,4 @@
-{% set version = '0.1.5' %}
+{% set version = "0.1.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppTOML_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppTOML/RcppTOML_{{ version }}.tar.gz
-  sha256: f7e30bc677d3bd14463458f961e38644740fd6e52370da51e213d1096a6e7934
+  sha256: 7a0d5e60da4dfaab684c927ed5a15c80e83882fc3600ec7f661b419fad27dbdb
 
 build:
   merge_build_host: True  # [win]
