@@ -6,19 +6,23 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcpptoml-feed
 About r-rcpptoml
 ----------------
 
-Home: http://dirk.eddelbuettel.com/code/rcpp.toml.html
+Home: https://dirk.eddelbuettel.com/code/rcpp.toml.html
 
 Package license: GPL-2.0-or-later
 
 Summary: The configuration format defined by 'TOML' (which expands to "Tom's Obvious Markup Language") specifies an excellent format (described at <https://toml.io/en/>) suitable for both human editing as well as the common uses of a machine-readable format. This package uses 'Rcpp' to connect the 'cpptoml' parser written by Chase Geigle (in C++11) to R.
+
+Development: https://github.com/eddelbuettel/rcpptoml
 About r-rcpptoml
 ----------------
 
-Home: http://dirk.eddelbuettel.com/code/rcpp.toml.html
+Home: https://dirk.eddelbuettel.com/code/rcpp.toml.html
 
 Package license: GPL-2.0-or-later
 
 Summary: The configuration format defined by 'TOML' (which expands to "Tom's Obvious Markup Language") specifies an excellent format (described at <https://toml.io/en/>) suitable for both human editing as well as the common uses of a machine-readable format. This package uses 'Rcpp' to connect the 'cpptoml' parser written by Chase Geigle (in C++11) to R.
+
+Development: https://github.com/eddelbuettel/rcpptoml
 
 Current build status
 ====================
@@ -105,13 +109,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3475&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpptoml-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3475&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpptoml-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
