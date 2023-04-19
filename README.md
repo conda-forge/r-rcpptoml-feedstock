@@ -1,11 +1,22 @@
+About r-rcpptoml-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcpptoml-feedstock/blob/main/LICENSE.txt)
+
 About r-rcpptoml
-================
+----------------
 
 Home: http://dirk.eddelbuettel.com/code/rcpp.toml.html
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcpptoml-feedstock/blob/main/LICENSE.txt)
+Summary: The configuration format defined by 'TOML' (which expands to "Tom's Obvious Markup Language") specifies an excellent format (described at <https://toml.io/en/>) suitable for both human editing as well as the common uses of a machine-readable format. This package uses 'Rcpp' to connect the 'cpptoml' parser written by Chase Geigle (in C++11) to R.
+About r-rcpptoml
+----------------
+
+Home: http://dirk.eddelbuettel.com/code/rcpp.toml.html
+
+Package license: GPL-2.0-or-later
 
 Summary: The configuration format defined by 'TOML' (which expands to "Tom's Obvious Markup Language") specifies an excellent format (described at <https://toml.io/en/>) suitable for both human editing as well as the common uses of a machine-readable format. This package uses 'Rcpp' to connect the 'cpptoml' parser written by Chase Geigle (in C++11) to R.
 
