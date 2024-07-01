@@ -1,6 +1,5 @@
 {% set version = "0.2.2" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-rcpptoml
@@ -13,9 +12,9 @@ source:
   sha256: 371391f9ca82221e76a424082ea9ebc5ea2c50f14e8408469b09d7dc3e6f63aa
 
 build:
-  merge_build_host: true  # [win]
-  skip: true              # [win]
-  number: 1
+  # Checking windows to see if it passes. Uncomment the line if it fails.
+  # skip: true              # [win]
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
@@ -25,7 +24,9 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
     - r-rcpp                       # [build_platform != target_platform]
     - {{ compiler('c') }}          # [not win]
+    - {{ stdlib("c") }}            # [not win]
     - {{ compiler('m2w64_c') }}    # [win]
+    - {{ stdlib("m2w64_c") }}      # [win]
     - {{ compiler('cxx') }}        # [not win]
     - {{ compiler('m2w64_cxx') }}  # [win]
     - {{ posix }}filesystem        # [win]
@@ -38,7 +39,6 @@ requirements:
     - r-rcpp >=0.11.5
   run:
     - r-base
-    - {{ native }}gcc-libs         # [win]
     - r-rcpp >=0.11.5
 
 test:
