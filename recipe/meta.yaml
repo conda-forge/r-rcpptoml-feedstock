@@ -1,4 +1,4 @@
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,12 +9,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppTOML_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppTOML/RcppTOML_{{ version }}.tar.gz
-  sha256: 371391f9ca82221e76a424082ea9ebc5ea2c50f14e8408469b09d7dc3e6f63aa
+  sha256: 2ed594253c562bef7065e67d791197f61b221e545206a1b3598d46868cf5926f
 
 build:
   # Checking windows to see if it passes. Uncomment the line if it fails.
   # skip: true              # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
